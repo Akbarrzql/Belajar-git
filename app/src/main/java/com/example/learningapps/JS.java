@@ -19,5 +19,9 @@ public class JS extends AppCompatActivity {
 
         name = "Abdul";
         email = ""+name+"@gmail.com";
+
+        password = "12345";
+        confirmPassword = "12345";
+        phoneNumber = "0123456789";
     }
 }
