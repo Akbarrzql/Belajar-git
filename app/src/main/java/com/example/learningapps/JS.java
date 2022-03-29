@@ -1,10 +1,23 @@
 package com.example.learningapps;
 
-public class JS {
+import android.os.Bundle;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class JS extends AppCompatActivity {
 
     String name;
     String email;
     String password;
     String confirmPassword;
     String phoneNumber;
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        name = "Abdul";
+        email = ""+name+"@gmail.com";
+    }
 }
