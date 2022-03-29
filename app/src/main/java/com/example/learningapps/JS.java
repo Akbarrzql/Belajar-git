@@ -12,6 +12,7 @@ public class JS extends AppCompatActivity {
     String password;
     String confirmPassword;
     String phoneNumber;
+    String Addres;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -23,5 +24,6 @@ public class JS extends AppCompatActivity {
         password = "12345";
         confirmPassword = "12345";
         phoneNumber = "0123456789";
+        Addres = "indonesia";
     }
 }
