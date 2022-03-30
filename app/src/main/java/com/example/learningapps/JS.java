@@ -25,5 +25,12 @@ public class JS extends AppCompatActivity {
         confirmPassword = "12345";
         phoneNumber = "0123456789";
         Addres = "indonesia";
+
+        System.out.println("Name : "+name);
+        System.out.println("Email : "+email);
+        System.out.println("Password : "+password);
+        System.out.println("Confirm Password : "+confirmPassword);
+        System.out.println("Phone Number : "+phoneNumber);
+        System.out.println("Addres : "+Addres);
     }
 }
